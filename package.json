@@ -1,0 +1,40 @@
+{
+  "name": "node-log4js-test-appender",
+  "version": "0.1.0",
+  "description": "log4js appender for your test suite",
+  "author": {
+    "name": "Joost Vunderink",
+    "email": "joost@vunderink.net",
+    "url": "http://joost.vunderink.net/"
+  },
+  "main": "src/testAppender.js",
+  "scripts": {
+    "test": "NODE_PATH=$NODE_PATH:src mocha test/testAppender.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joostvunderink/node-log4js-test-appender.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "mocha": "*",
+    "should": "^7.1.0"
+  },
+  "dependencies": {
+    "log4js": "^0.6.27"
+  },
+  "bugs": {
+    "url": "https://github.com/joostvunderink/node-log4js-test-appender/issues"
+  },
+  "homepage": "https://github.com/joostvunderink/node-log4js-test-appender",
+  "maintainers": [
+    {
+      "name": "Joost Vunderink",
+      "email": "joost@vunderink.net"
+    }
+  ],
+  "readme": "README.md"
+}
