@@ -1,0 +1,5 @@
+Release 0.1.1
+
+* Actually, 0.1.0 did not work.
+* Renamed the npm package from node-log4js-test-appender to log4js-test-appender.
+* Made sure (hopefully) that it now works in the real world.
