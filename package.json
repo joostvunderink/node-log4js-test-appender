@@ -1,6 +1,6 @@
 {
-  "name": "node-log4js-test-appender",
-  "version": "0.1.0",
+  "name": "log4js-test-appender",
+  "version": "0.1.1",
   "description": "log4js appender for your test suite",
   "author": {
     "name": "Joost Vunderink",
@@ -24,7 +24,6 @@
     "should": "^7.1.0"
   },
   "dependencies": {
-    "log4js": "^0.6.27"
   },
   "bugs": {
     "url": "https://github.com/joostvunderink/node-log4js-test-appender/issues"
@@ -36,5 +35,5 @@
       "email": "joost@vunderink.net"
     }
   ],
-  "readme": "README.md"
+  "readme": "https://github.com/joostvunderink/node-log4js-test-appender"
 }
