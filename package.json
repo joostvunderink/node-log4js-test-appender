@@ -7,9 +7,9 @@
     "email": "joost@vunderink.net",
     "url": "http://joost.vunderink.net/"
   },
-  "main": "src/testAppender.js",
+  "main": "src/log4js-test-appender.js",
   "scripts": {
-    "test": "NODE_PATH=$NODE_PATH:src mocha test/testAppender.js"
+    "test": "NODE_PATH=$NODE_PATH:src mocha test/log4js-test-appender.spec.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,11 @@
     "grunt": "*",
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "*",
+    "log4js": "^0.6.27",
     "mocha": "*",
     "should": "^7.1.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/joostvunderink/node-log4js-test-appender/issues"
   },

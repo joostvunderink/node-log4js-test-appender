@@ -9,7 +9,7 @@ var path   = require('path');
 var foo = require('./foo');
 
 describe('testAppender', function() {
-  var testAppender = require('testAppender');
+  var testAppender = require('log4js-test-appender');
 
   it('should call init successfully', function() {
     testAppender.init();

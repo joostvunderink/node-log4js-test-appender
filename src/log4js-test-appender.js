@@ -1,5 +1,9 @@
 'use strict';
 
+// This file has to be called the same as the npm package name,
+// to make sure that the log4js.loadAppender line will work in the
+// test suite.
+
 var logEvents = [];
 var enabled = false;
 
@@ -19,8 +23,8 @@ function init() {
   var log4js = require('log4js');
   // Make sure we init the test appender no more than once.
   if (!(log4js.appenders && log4js.appenders.testAppender)) {
-    log4js.loadAppender('testAppender');
-    log4js.addAppender(log4js.appenders['testAppender']())
+    log4js.loadAppender('log4js-test-appender');
+    log4js.addAppender(log4js.appenders['log4js-test-appender']())
   }
   enabled = true;
 }
