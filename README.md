@@ -1,4 +1,4 @@
-# node-log4js-test-appender
+# log4js-test-appender
 
 Provides a log4js appender for your test suite to test log events.
 
@@ -11,7 +11,7 @@ Please note that this is a basic first working version. I'm sure that the way th
 # Synopsis
 
     # This is your test file
-    var testAppender = require('testAppender');
+    var testAppender = require('log4js-test-appender');
     testAppender.init();
 
     functionThatLogsSomething();
